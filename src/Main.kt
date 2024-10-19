@@ -55,4 +55,10 @@ fun main(args:Array<String>) {
 //    }
 
     //endregion
+    //region Kotlin Type Conversion
+    //we have also implicit,like converting byte to long
+//    val num=16.00
+//    val innum=num.toInt() //explicit
+//    println(innum)
+    //endregion
 }
