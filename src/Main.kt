@@ -61,4 +61,39 @@ fun main(args:Array<String>) {
 //    val innum=num.toInt() //explicit
 //    println(innum)
     //endregion
+    //region Arrays
+//    val nums= arrayOf(1,2,3)
+//    val names= arrayOfNulls<String>(4)
+//    names[0]="Murad"
+//    for(name in names) println(name)
+//    var result=if(1 in nums) println("Correct") else println("Not Correct")
+//    println(result)
+//    println(nums.joinToString())
+//
+//    val values=Array(5){i->(i*i).toString()}
+//    values.forEach {
+//        println(it)
+//    }
+//    val twodimension=Array(2){Array<Int>(3){0}}
+//    println(twodimension.contentDeepToString())
+    //endregion
+    //region Nullable variable,self access operator and Elvis operator
+//    val text:String?=null;
+//    println(text?.length?:"It is null")
+    //endregion
+    //region Functions invoking
+//    printInfo(name ="Hi Murad", age = 21)
+//    println( getName("Murad"))
+//    println(pow(5))
+    //endregion
 }
+//region Functions Declaration
+//fun getName(name:String):String{
+//    return name
+//}
+//fun printInfo(age:Int=20,name:String="Murad"):Unit{
+//    println("My name is $name,I am $age years old")
+//}
+//
+//fun pow(num:Int):Int=num*num
+//endregion
