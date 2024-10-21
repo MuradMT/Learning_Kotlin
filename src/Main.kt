@@ -86,6 +86,15 @@ fun main(args:Array<String>) {
 //    println( getName("Murad"))
 //    println(pow(5))
     //endregion
+    //region Classes and data classes,interfaces,inheritance initialization
+//    val person=Person()
+//    val person1=Person(surname = "Mammadzada", name = "Murad", age = 21)
+//    println("${person1.name} ${person1.surname} ${person1.age}")
+//    println("${person.age}")
+//    val data=PersonDto(1234)
+//    println(data.number)
+//    person1.run(data)
+    //endregion
 }
 //region Functions Declaration
 //fun getName(name:String):String{
@@ -96,4 +105,25 @@ fun main(args:Array<String>) {
 //}
 //
 //fun pow(num:Int):Int=num*num
+//endregion
+//region class Declaration
+//primary constructor
+//open class Person(val name:String,val surname:String,var age:Int):IPerson{
+//    init{
+//        println("Kotlin is not C#")
+//    }
+//    constructor():this("","",0){
+//        //secondary constructor
+//    }
+//
+//    override fun run(person: PersonDto) {
+//       println("Person \n${person.surname} ${person.name}" +
+//               " with ${person.age} age and ${person.number} number " +
+//               "is running")
+//    }
+//}
+//data class PersonDto(val number:Int):Person("Messi","Lionel",37)
+//interface  IPerson{
+//    fun run(person: PersonDto)
+//}
 //endregion
